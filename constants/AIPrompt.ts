@@ -1,0 +1,3 @@
+export const prompt=(tripData:any)=>{
+    return `Generate Travel Plan for Location : ${tripData.destinationInfo.name} from ${tripData.sourceInfo.name}} for ${tripData.totalDays} days for ${tripData.travellerInfo.title} with a ${tripData.budget} budget with Actual Flight Details, Flight Price with booking url, Hotel options list with HotelName, Hotel address, Price, hotel image url, geo coordinates, rating, descriptions and Places to visit nearby with placeName, place details, Place Image Url, Geo Coordinates, Ticket Pricing, Time to travel each of the location for ${tripData.totalDays} days and ${tripData.totalDays - 1} night with each day plan with best time to visit in valid JSON format.`
+}
